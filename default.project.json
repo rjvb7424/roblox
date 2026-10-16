@@ -1,0 +1,71 @@
+{
+  "name": "roblox",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "BlackoutConfig": {
+        "$path": "src/ReplicatedStorage/BlackoutConfig.luau"
+      },
+      "DarknessConfig": {
+        "$path": "src/ReplicatedStorage/DarknessConfig.luau"
+      },
+      "FlashlightConfig": {
+        "$path": "src/ReplicatedStorage/FlashlightConfig.luau"
+      },
+      "FlashlightVisuals": {
+        "$path": "src/ReplicatedStorage/FlashlightVisuals.luau"
+      },
+      "LightUtil": {
+        "$path": "src/ReplicatedStorage/LightUtil.luau"
+      },
+      "MapLightsConfig": {
+        "$path": "src/ReplicatedStorage/MapLightsConfig.luau"
+      },
+      "PlayerConfig": {
+        "$path": "src/ReplicatedStorage/PlayerConfig.luau"
+      },
+      "AmbienceConfig": {
+        "$path": "src/ReplicatedStorage/AmbienceConfig.luau"
+      }
+    },
+    "ServerScriptService": {
+      "BlackoutServer": {
+        "$path": "src/ServerScriptService/BlackoutServer.server.luau"
+      },
+      "DarknessServer": {
+        "$path": "src/ServerScriptService/DarknessServer.server.luau"
+      },
+      "FlashlightServer": {
+        "$path": "src/ServerScriptService/FlashlightServer.server.luau"
+      },
+      "PlayerServer": {
+        "$path": "src/ServerScriptService/PlayerServer.server.luau"
+      }
+    },
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "BlackoutClient": {
+          "$path": "src/StarterPlayer/StarterPlayerScripts/BlackoutClient.client.luau"
+        },
+        "DarknessClient": {
+          "$path": "src/StarterPlayer/StarterPlayerScripts/DarknessClient.client.luau"
+        },
+        "FlashlightClient": {
+          "$path": "src/StarterPlayer/StarterPlayerScripts/FlashlightClient.client.luau"
+        },
+        "FlashlightOthers": {
+          "$path": "src/StarterPlayer/StarterPlayerScripts/FlashlightOthers.client.luau"
+        },
+        "MapLightsClient": {
+          "$path": "src/StarterPlayer/StarterPlayerScripts/MapLightsClient.client.luau"
+        },
+        "FootstepsClient": {
+          "$path": "src/StarterPlayer/StarterPlayerScripts/FootstepsClient.client.luau"
+        },
+        "AmbienceClient": {
+          "$path": "src/StarterPlayer/StarterPlayerScripts/AmbienceClient.client.luau"
+        }
+      }
+    }
+  }
+}
